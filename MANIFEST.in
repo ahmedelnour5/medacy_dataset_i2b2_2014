@@ -1,1 +1,1 @@
-recursive-include medacy_dataset_2014 i2b2/data *
+recursive-include medacy_dataset_i2b2_2014/data *

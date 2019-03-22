@@ -15,7 +15,7 @@ def load():
         'entities': ['CAD', 'Diabtetes', 'Obese Status', 'Hyperlimidemia', 'Hypertension', 'Medication',
                      'Smoker Status', 'Family History'],
         'relations': ['mention', 'event', 'test', 'symptom', 'ALC', 'glucose', 'BMI', 'high LDL', 'high chol',
-                      'high bp'],  # set to None if no relations
+                      'high bp','ACE inhibitor','anti diabetes','ARB','Aspirin','beta blocker','calcium channel blocker','diuretic','dpp4 inhibitor','ezetimibe','fibrate','insulin','metformin','niacin','nitrate','statin','sulfonylureas','thiazolidinedione','thienopyridine','current','ever','never','past','unknown','not present','present'],  # set to None if no relations
     }
 
     return get_training_dataset(), get_evaluation_dataset(), meta_data

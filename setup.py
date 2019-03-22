@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from medacy_dataset_template import __version__, __authors__
+from medacy_dataset_i2b2_2014 import __version__, __authors__
 
 packages = find_packages()
 
@@ -9,10 +9,10 @@ def readme():
 
 
 setup(
-    name='medacy_dataset_2014 i2b2 CAD Risk Factors NLP Challenge', #the name of the python package, prefix with medacy_dataset
+    name='medacy_dataset_i2b2_2014', #the name of the python package, prefix with medacy_dataset
     version=__version__,
     license='GNU GENERAL PUBLIC LICENSE',
-    description='A dataset containg info on diabetic patients at risk for CAD', #describe the package
+    description='A medaCy compatible version of the 2014 i2b2 CAD Risk Factors Challenge', #describe the package
     long_description=readme(),
     packages=packages,
     url='https://github.com/NLPatVCU/medaCy_dataset_template',

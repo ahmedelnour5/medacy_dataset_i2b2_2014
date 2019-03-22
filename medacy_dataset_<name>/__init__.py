@@ -1,4 +1,4 @@
-from .medacy_dataset_template import load
+from .medacy_dataset_i2b2_2014 import load
 
 #Make sure to maintain versioning on the package. Anytime a change is done to the underlying data, bump the version.
 #This insures everyone is working with the same data.
