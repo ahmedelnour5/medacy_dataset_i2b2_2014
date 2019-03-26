@@ -15,7 +15,7 @@ setup(
     description='A medaCy compatible version of the 2014 i2b2 CAD Risk Factors Challenge', #describe the package
     long_description=readme(),
     packages=packages,
-    url='https://github.com/NLPatVCU/medaCy_dataset_template',
+    url='https://github.com/NLPatVCU/medaCy_dataset_i2b2_2014',
     author=__authors__,
     author_email='contact@andriymulyar.com',
     keywords='dataset, medacy-dataset, medacy, nlp, medical-nlp',
