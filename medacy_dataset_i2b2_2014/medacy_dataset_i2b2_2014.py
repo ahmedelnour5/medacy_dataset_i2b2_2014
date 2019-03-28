@@ -13,7 +13,7 @@ def load():
 
     meta_data = {
         'entities': ['IDNUM','Location-Other','Street','Email','Age','Healthplan','Username','Department','Phone','Hospital','Organization','BIOID','Profession','Other','State','Doctor','Zip','Patient','Device','Medical Record','Date','City','URL','Country','Fax','Room'],
-        'relations': [none],  # set to None if no relations
+        'relations': [],  # set to None if no relations
     }
 
     return get_training_dataset(), get_evaluation_dataset(), meta_data

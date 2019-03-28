@@ -5,4 +5,4 @@ from .medacy_dataset_i2b2_2014 import load
 __version__ = '1.0.0'
 
 # Who authored this package (not the dataset itself).
-__authors__ = "Andriy Mulyar and Bridget T. McInnes"
+__authors__ = "Ahmed Elnour and Bridget T. McInnes"

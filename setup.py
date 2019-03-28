@@ -17,7 +17,7 @@ setup(
     packages=packages,
     url='https://github.com/NLPatVCU/medaCy_dataset_i2b2_2014',
     author=__authors__,
-    author_email='contact@andriymulyar.com',
+    author_email='elnouraa@vcu.edu',
     keywords='dataset, medacy-dataset, medacy, nlp, medical-nlp',
     classifiers=[
         '( Status :: 4 - Beta',
